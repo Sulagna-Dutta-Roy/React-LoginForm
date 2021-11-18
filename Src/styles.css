@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap');
+
+body {
+    background: rgb(240, 230, 218);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.form-container {
+    width: 400px;
+    background-color: rgb(216, 210, 210);
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.4), 0 5px 5px 0 rgba(0,0,0,0.30);
+    padding: 20px;
+    border-radius: 3px;
+}
+.registration-form {
+    justify-content: space-evenly;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.success-message {
+    background-color: #76b852;
+    padding: 15px;
+    color: #fff;
+}
+.form-field {
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+}
+span {
+    font-size: 14px;
+    color: red;
+    margin-bottom: 15px;
+}
+input {
+    background: rgb(240, 230, 218); 
+    padding: 120px;
+    border-color: #fff;
+}
+
+.error{
+    border-style: solid;
+    border: 2px solid #ffa4a4;
+}
+button {
+    background: rgb(10, 21, 116);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+}
